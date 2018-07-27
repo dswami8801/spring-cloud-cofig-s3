@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        s3 :
+          enabled : false
+          cacheEnabled : true
+          eagerLoad: true
+          bucket : bucket-name
+          awsKey : your-aws-key
+          awsSecret : your-aws-secret
+#        git:
+#          uri: https://some-uri/some-repo.git
+#          username: username
+#          password: password
+         
+           
+          
+server:
+  port: 8888
+
+    
+  
+  
