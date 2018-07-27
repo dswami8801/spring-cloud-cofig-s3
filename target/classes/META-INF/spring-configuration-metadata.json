@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3",
+      "type": "com.esphere.cloud.config.S3Config"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.aws-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.aws-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.bucket",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.cache-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.eager-load",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.esphere.cloud.config.S3Config",
+      "name": "spring.cloud.config.server.s3.enabled",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

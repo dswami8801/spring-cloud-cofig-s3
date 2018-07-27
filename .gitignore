@@ -1,0 +1,15 @@
+### Eclipse template
+
+
+bootstrap.yml
+.settings/
+.target
+.springBeans
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
